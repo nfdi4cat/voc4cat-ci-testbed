@@ -123,6 +123,13 @@ orcid = "0000-0001-2345-6789"
 ror_id = "https://ror.org/04fa4r544"
 
 [[vocabs.vocab_example.id_range]]
+first_id = 21
+last_id = 30
+gh_name = "dalito"
+orcid = ""
+ror_id = ""
+
+[[vocabs.vocab_example.id_range]]
 first_id = 11
 last_id = 20
 gh_name = "another-contributor"
