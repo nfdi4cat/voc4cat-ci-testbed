@@ -1,0 +1,15 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://example.org/test/0000021>
+    a skos:Concept ;
+    dcterms:identifier "0000021"^^xsd:token ;
+    dcterms:provenance <https://github.com/nfdi4cat/voc4cat-ci-testbed/blame/main/vocabularies/vocab_example/IDs0000xxx/0000021.ttl> ;
+    rdfs:seeAlso <https://github.com/nfdi4cat/voc4cat-ci-testbed/blame/main/vocabularies/vocab_example/IDs0000xxx/0000021.ttl> ;
+    skos:definition "An identifier that is guaranteed to remain resolvable over the long term."@en ;
+    skos:inScheme <https://example.org/test/> ;
+    skos:prefLabel "Persistent identifier"@en ;
+    skos:topConceptOf <https://example.org/test/> ;
+.
