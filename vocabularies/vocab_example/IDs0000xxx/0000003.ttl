@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:seeAlso <https://github.com/NFDI4Cat/voc4cat-template/blame/main/vocabularies/vocab_example/0000003.ttl> ;
     skos:altLabel "IRI"@en ;
     skos:changeNote "0000-0001-2345-6789 Created concept"@en ;
-    skos:definition "Internationalized Resource Identifier (IRI) is an internet protocol standard which builds on the Uniform Resource Identifier (URI) protocol by greatly expanding the set of permitted characters."@en ;
+    skos:definition "Reworded by the release rehearsal to exercise the same-repo path."@en ;
     skos:inScheme <https://example.org/test/> ;
     skos:prefLabel "Internationalized Resource Identifier"@en ;
     skos:topConceptOf <https://example.org/test/> ;
