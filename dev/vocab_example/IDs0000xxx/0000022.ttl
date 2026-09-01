@@ -1,0 +1,17 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://example.org/test/0000022>
+    a skos:Concept ;
+    dcterms:created "2026-09-01"^^xsd:date ;
+    dcterms:identifier "0000022"^^xsd:token ;
+    dcterms:modified "2026-09-01"^^xsd:date ;
+    dcterms:provenance <https://github.com/nfdi4cat/voc4cat-ci-testbed/blame/main/vocabularies/vocab_example/IDs0000xxx/0000022.ttl> ;
+    rdfs:seeAlso <https://github.com/nfdi4cat/voc4cat-ci-testbed/blame/main/vocabularies/vocab_example/IDs0000xxx/0000022.ttl> ;
+    skos:definition "A persistent identifier standardised by ISO 26324 and issued through registration agencies."@en ;
+    skos:inScheme <https://example.org/test/> ;
+    skos:prefLabel "Digital object identifier"@en ;
+    skos:topConceptOf <https://example.org/test/> ;
+.
